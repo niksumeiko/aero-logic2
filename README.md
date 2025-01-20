@@ -40,21 +40,21 @@ pnpm test:e2m
 &nbsp;
 ### For my mentees
 
-- [x] Fork this [aero-logic2](https://github.com/niksumeiko/aero-logic2) kata to your GitHub account:  
+- [ ] Fork this [aero-logic2](https://github.com/niksumeiko/aero-logic2) kata to your GitHub account:  
   _Here's how: [https://docs.github.com/…/fork-a-repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)_
 
-- [x] Give me access to your `aero-logic2` kata fork:  
+- [ ] Give me access to your `aero-logic2` kata fork:  
   Settings > Collaborators > Manage Access > Add people > [niksumeiko](https://github.com/niksumeiko)  
   _Here's how: [https://docs.github.com…/inviting-collaborators-to-a-personal-repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository#inviting-a-collaborator-to-a-personal-repository)_
 
-- [x] Navigate into your local mentorship repository  
+- [ ] Navigate into your local mentorship repository  
   _The one we run discussions in._
 
-- [x] Add your fork of the `aero-logic2` kata as a submodule  
+- [ ] Add your fork of the `aero-logic2` kata as a submodule  
   _Here're more details, if necessary: https://github.blog/open-source/git/working-with-submodules_
 ```bash
 $ submodule add git@github.com:YOUR_GITHUB_USERNAME/aero-logic2.git
 ```
 
-- [x] Commit and push changes to your local mentorship repository
+- [ ] Commit and push changes to your local mentorship repository
 >ℹ️ If you want, you can make a fork of the `aero-logic2` repo private. From our collaboration perspective, it doesn't matter whether it's public or private because we both will have access to your fork (even if it's private).
