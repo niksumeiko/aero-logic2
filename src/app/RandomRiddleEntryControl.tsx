@@ -2,12 +2,8 @@
 
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import {
-  useRetrieveRandomRiddle
-} from './useRetrieveRandomRiddle';
 
 export const RandomRiddleEntryControl = () => {
-  const { getData } = useRetrieveRandomRiddle();
   const router = useRouter();
   const [id, setId] = useState<string>();
   const handleClick = () => {
@@ -15,13 +11,23 @@ export const RandomRiddleEntryControl = () => {
   }
 
   useEffect(() => {
-    getData().then((response) => {
-      setId(response.id);
-    })
+    async function getRandomRiddle() {
+      const response = await fetch('http://localhost:3000/api/random-riddle');
+      const riddle = await response.json();
+
+      setId(riddle.id);
+
+    }
+
+    getRandomRiddle();
   }, []);
 
   return (
-    <button data-test={id ? 'random-riddle-control' : undefined} onClick={handleClick}>
+    <button
+      data-test={id ? 'random-riddle-control' : undefined}
+      onClick={handleClick}
+      className="border border-blue-500 p-5"
+    >
       Resolve random riddle
     </button>
   );

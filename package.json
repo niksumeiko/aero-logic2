@@ -12,6 +12,7 @@
     "test:e2m": "cypress open --e2e --browser electron"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "lodash": "^4.17.21",
     "next": "15.1.2",
     "react": "^19.0.0",
