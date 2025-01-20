@@ -2,6 +2,6 @@
   "name": "riddle-exam",
   "description": "Official JavaScript SDK for Riddle examinations",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
   "dependencies": {}
 }

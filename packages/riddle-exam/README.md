@@ -4,7 +4,7 @@
 
 #### Public interface
 ```ts
-export type RiddleAnswer = {
+type RiddleAnswer = {
   id: string;
   text: string;
 };
