@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <main className="text-lg">
-      <div data-test="metadata">
+      <div>
         <p>Work Interval: {workInterval}</p>
         <p>Timestamp: {year}-{month}-{day} {hours}{minutes}</p>
         <div className="p-20 text-center">
