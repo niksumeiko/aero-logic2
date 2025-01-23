@@ -24,7 +24,6 @@ export const RandomRiddleEntryControl = () => {
 
   return (
     <button
-      data-test={id ? 'random-riddle-control' : undefined}
       onClick={handleClick}
       className="border border-blue-500 p-5"
     >

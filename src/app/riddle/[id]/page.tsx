@@ -11,7 +11,7 @@ export default async function RiddlePage({ params }: {
   return (
     <main className="text-lg">
       <p
-        dangerouslySetInnerHTML={{__html: riddle.contents}}
+        dangerouslySetInnerHTML={{ __html: riddle.contents }}
         className="mb-16"
       />
       <RiddleAnswers riddle={riddle} />
