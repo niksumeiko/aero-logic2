@@ -13,6 +13,10 @@ export const RiddleAnswers = ({ riddle }: Props) => {
   const [correct, setCorrect] = useState<{ id: string }>();
   const [selected, setSelected] = useState<string>()
   const handleClick = async (id: string) => {
+    if (selected) {
+      return;
+    }
+
     setSelected(id);
 
     const data = await getAnswerFor(riddle.id);
