@@ -18,6 +18,10 @@ export const RandomRiddleEntryControl = () => {
       });
   }, []);
 
+  if (!id) {
+    return null;
+  }
+
   return (
     <button
       onClick={handleClick}
