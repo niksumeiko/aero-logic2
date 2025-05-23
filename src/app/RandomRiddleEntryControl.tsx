@@ -11,15 +11,11 @@ export const RandomRiddleEntryControl = () => {
   }
 
   useEffect(() => {
-    async function getRandomRiddle() {
-      const response = await fetch('http://localhost:3000/api/random-riddle');
-      const riddle = await response.json();
-
-      setId(riddle.id);
-
-    }
-
-    getRandomRiddle();
+    fetch('http://localhost:3000/api/random-riddle')
+      .then((response) => response.json())
+      .then((riddle) => {
+        setId(riddle.id);
+      });
   }, []);
 
   return (
