@@ -2,7 +2,7 @@
 
 [![Nik Sumeiko](https://img.shields.io/badge/Nik_Sumeiko-0762C8?logo=LinkedIn)](https://www.linkedin.com/in/niksumeiko/) &nbsp; ![Awesome](https://awesome.re/badge.svg)
 
-> A kata project to practice Separation of Concerns (SOC design principle), and an effective  automation testing in Nextjs
+> A kata project to practice Separation of Concerns (SOC), Dependency Inversion design principles, and an effective  automation testing in Nextjs
 
 &nbsp;
 ### Project description
